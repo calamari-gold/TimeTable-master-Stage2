@@ -19,9 +19,12 @@
 
     <!-- Splash Activity strings -->
     <string name="fluid_algorithms">Fluid Algorithms</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="good_night">Good Night</string>
     <string name="original_developers">Original code by Ulan Nurym and Sabith Pkc Mnr.</string>
     <string name="rmit_developers">Project code by Joel Coutts, Taner Kurtulus and Hamish Storrie.</string>
-
 
     <!-- Main Activity strings -->
     <string name="timetable">TimeTable</string>

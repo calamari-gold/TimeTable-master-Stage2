@@ -26,6 +26,7 @@ public class SplashActivity extends AppCompatActivity {
     int timeOfDay = c.get(Calendar.HOUR_OF_DAY); //Creates timeOfDay int 00 to 23
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,13 +53,13 @@ public class SplashActivity extends AppCompatActivity {
         //Code to change greeting based off time
         TextView textViewGreet = (TextView) findViewById(R.id.greeting);
         if(timeOfDay >= 0 && timeOfDay < 12){
-            textViewGreet.setText("Good Morning");
+            textViewGreet.setText(R.string.good_morning);
         }else if(timeOfDay >= 12 && timeOfDay < 16){
-            textViewGreet.setText("Good Afternoon");
+            textViewGreet.setText(R.string.good_afternoon);
         }else if(timeOfDay >= 16 && timeOfDay < 21){
-            textViewGreet.setText("Good Evening");
+            textViewGreet.setText(R.string.good_evening);
         }else if(timeOfDay >= 21 && timeOfDay < 24){
-            textViewGreet.setText("Good Night");
+            textViewGreet.setText(R.string.good_night);
         }
     }
 
