@@ -17,6 +17,12 @@
     <string name="select_snackbar">Please, select one item.</string>
     <string name="selected">Selected</string>
 
+    <!-- Splash Activity strings -->
+    <string name="fluid_algorithms">Fluid Algorithms</string>
+    <string name="original_developers">Original code by Ulan Nurym and Sabith Pkc Mnr.</string>
+    <string name="rmit_developers">Project code by Joel Coutts, Taner Kurtulus and Hamish Storrie.</string>
+
+
     <!-- Main Activity strings -->
     <string name="timetable">TimeTable</string>
     <string name="ulan_nurymov_gmail_com">ulan.nurymov@gmail.com</string>
