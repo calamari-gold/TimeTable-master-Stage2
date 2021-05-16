@@ -34,6 +34,7 @@ public class HomeworksActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homeworks);
         initAll();
+        setTitle(R.string.homeworks);
     }
 
     private void initAll() {
